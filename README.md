@@ -17,5 +17,6 @@ npm run <source/sink>
 
 ```
 ./buildDocker
+export KAFKA_BROKERS=<kafkaBrokerList>
 docker run datastream-tweets-<source/sink>
 ```
