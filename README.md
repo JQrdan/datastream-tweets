@@ -10,6 +10,8 @@ Contains 2 applications:
 ```
 npm install
 export KAFKA_BROKERS=<kafkaBrokerList>
+export CONSUMER_KEY=<twitterAPIConsumerKey>
+export CONSUMER_SECRET=<twitterAPIConsumerSecret>
 npm run <source/sink>
 ```
 
@@ -18,5 +20,7 @@ npm run <source/sink>
 ```
 ./buildDocker
 export KAFKA_BROKERS=<kafkaBrokerList>
+export CONSUMER_KEY=<twitterAPIConsumerKey>
+export CONSUMER_SECRET=<twitterAPIConsumerSecret>
 docker run datastream-tweets-<source/sink>
 ```
